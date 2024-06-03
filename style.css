@@ -84,13 +84,18 @@ header {
 
 /* Mid Section content part of the Webpage */
 
-
+.mid-content {
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 /* Top part */
 
 .top-container > h2 {
   text-align: center;
-  margin: 40px;
+  margin: 60px;
   font-size: 36px;
   font-weight: bold;
 }
@@ -133,6 +138,7 @@ blockquote {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 
 blockquote > p {
@@ -141,7 +147,7 @@ blockquote > p {
   font-weight: 100;
   font-style: italic;
   color: #1F2937;
-  width: 60rem;
+  width: 50rem;
 }
 
 blockquote > footer {
@@ -149,7 +155,7 @@ blockquote > footer {
   font-weight: bold;
   display: flex;
   align-self:flex-end;
-  width: 40rem;
+  width: 50rem;
 }
 
 /* End of mid-part-------------------------------------------------------------- */
@@ -166,6 +172,7 @@ blockquote > footer {
   align-items: center;
   padding: 0 100px;
   border-radius: 10px;
+  margin-bottom: 80px;
 }
 
 .cta-text > h3 {
@@ -189,3 +196,16 @@ blockquote > footer {
 }
 
 /* End of bot-part--------------------------------------------------------------- */
+
+
+/* Footer Styling */
+
+.wp-footer {
+  height: 8vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #F9FAF8;
+}
