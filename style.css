@@ -1,7 +1,10 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
+
+/* Header Styling */
 
 header {
   display: flex;
@@ -79,3 +82,38 @@ header {
   font-size: 18px;
 }
 
+/* Mid Section content part of the Webpage */
+
+.top-container > h2 {
+  text-align: center;
+  margin: 40px;
+  font-size: 30px;
+}
+
+.picture-row {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.image-placeholder {
+  height: 150px;
+  width: 150px;
+  border: 5px solid #1DA1F2;
+  border-radius: 15px;
+}
+
+.image-1,
+.image-2,
+.image-3,
+.image-4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.caption {
+  text-wrap: wrap;
+  text-align: center;
+  width: 150px;
+}
