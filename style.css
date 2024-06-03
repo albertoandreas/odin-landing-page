@@ -8,13 +8,14 @@ header {
   flex-direction: column;
   padding: 40px 280px 150px 280px;
   background-color: #1f2937;
+  gap: 200px;
+  justify-content: space-between;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 150px;
-  flex: 1;
+  align-items: center;
 }
 
 .navbar > h1 {
@@ -33,14 +34,28 @@ header {
   color: #E5E7EB;
 }
 
-.header-text {
-  text-wrap: wrap;
+.head-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.head-container > .header-text {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  flex-basis: 600px;
-  width: 500px;
+  flex-basis: 50%;
+  height: 300px;
+  width: auto;
+  text-wrap: wrap;
+}
+
+.head-container > img {
+  flex-basis: 50%;
+  height: 300px;
+  width: auto;
 }
 
 .header-text > h2 {
@@ -55,21 +70,12 @@ header {
 }
 
 .header-text > button {
-  font-weight: 600;
-  color: white;
-  background-color: #1DA1F2;
   padding: 8px 20px;
   border-radius: 10px;
   border-width: 0;
+  background-color: #1DA1F2;
+  color: #F9FAF8;
+  font-weight: 600;
+  font-size: 18px;
 }
 
-.head-container {
-  display: flex;
-  justify-content: space-evenly;
-  gap: 300px;
-}
-
-.head-container > img {
-  height: 250px;
-  flex-basis: 700px;
-}
