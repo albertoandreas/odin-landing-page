@@ -63,7 +63,7 @@ header {
 
 .header-text > h2 {
   font-size: 48px;
-  font-weight: extra-bold;
+  font-weight: bold;
   color: #F9FAF8;
 }
 
@@ -73,21 +73,26 @@ header {
 }
 
 .header-text > button {
-  padding: 8px 20px;
+  padding: 8px 30px;
   border-radius: 10px;
   border-width: 0;
-  background-color: #1DA1F2;
+  background-color: #3882F6;
   color: #F9FAF8;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 /* Mid Section content part of the Webpage */
 
+
+
+/* Top part */
+
 .top-container > h2 {
   text-align: center;
   margin: 40px;
-  font-size: 30px;
+  font-size: 36px;
+  font-weight: bold;
 }
 
 .picture-row {
@@ -99,7 +104,7 @@ header {
 .image-placeholder {
   height: 150px;
   width: 150px;
-  border: 5px solid #1DA1F2;
+  border: 5px solid #3882F6;
   border-radius: 15px;
 }
 
@@ -117,3 +122,70 @@ header {
   text-align: center;
   width: 150px;
 }
+
+/* End of top part------------------------------------------------------------- */
+
+/* Start of mid-part */
+
+blockquote {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+blockquote > p {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1F2937;
+  width: 60rem;
+}
+
+blockquote > footer {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-self:flex-end;
+  width: 40rem;
+}
+
+/* End of mid-part-------------------------------------------------------------- */
+
+/* Start of bot-part */
+
+.cta-container {
+  margin: 0 280px;
+  background-color: #3882F6;
+  width: auto;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  border-radius: 10px;
+}
+
+.cta-text > h3 {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.cta-text > p {
+  font-size: 18px;
+  color: #F9FAF8;
+}
+
+.cta-button {
+  padding: 8px 30px;
+  border-radius: 10px;
+  border: 2px solid #F9FAF8;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* End of bot-part--------------------------------------------------------------- */
